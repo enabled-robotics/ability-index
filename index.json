@@ -1,22 +1,67 @@
 {
-	"1.8.0" : {
-		"display_name":"1.8.0",
-		"images":
-		[
-			{
-				"image":"erability/base",
-				"tag":"1.8.0"
-			},
-			{
+    "latest": "1.8.1",
 
-				"image":"erability/admin",
-				"tag":"1.8.0"
-			},
-			{
-
-				"image":"erability/webserver",
-				"tag":"1.8.0"
-			}
-		]
-	}
+    "versions":
+    {
+        "1.8.1" :
+        {
+            "display_name":"1.8.1",
+            "base_image": "erability/base",
+            "images":
+            [
+                {
+                    "image":"erability/base",
+                    "tag":"1.8.1"
+                },
+                {
+                    "image":"erability/admin",
+                    "tag":"1.8.1"
+                },
+                {
+                    "image":"erability/webserver",
+                    "tag":"1.8.1"
+                }
+            ]
+        },
+        "1.8.0" :
+        {
+            "display_name":"1.8.0",
+            "base_image": "erability/base",
+            "images":
+            [
+                {
+                    "image":"erability/base",
+                    "tag":"1.8.0"
+                },
+                {
+                    "image":"erability/admin",
+                    "tag":"1.8.0"
+                },
+                {
+                    "image":"erability/webserver",
+                    "tag":"1.8.0"
+                }
+            ]
+        },
+        "1.7.0" :
+        {
+            "display_name":"1.7.0",
+            "base_image": "erability/base",
+            "images":
+            [
+                {
+                    "image":"erability/base",
+                    "tag":"1.7.0"
+                },
+                {
+                    "image":"erability/admin",
+                    "tag":"1.7.0"
+                },
+                {
+                    "image":"erability/webserver",
+                    "tag":"1.7.0"
+                }
+            ]
+        }
+    }
 }
